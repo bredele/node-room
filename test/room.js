@@ -8,14 +8,13 @@ var room = require('..');
 
 describe("API", function() {
 	
-	var chat;
-	beforeEach(function() {
-		chat = room('chat');
+	it("should be a factory", function() {
+		var foo = room();
+		var bar = room();
+		assert.notEqual(foo, bar);
 	});
-	
-	it("should create a room", function() {
-		
-	});
+
+
 	
 
 });

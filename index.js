@@ -1,9 +1,11 @@
 
 /**
- * Expose 'Room'
+ * Expose 'Room' factory.
  */
 
-module.exports = Room;
+module.exports = function() {
+	return new Room();
+};
 
 
 /**
