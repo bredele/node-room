@@ -23,6 +23,7 @@
     "mocha": "^1.19.0"
   },
   "dependencies": {
-    "component-emitter": "^1.1.2"
+    "component-emitter": "^1.1.2",
+    "node-uuid": "^1.4.1"
   }
 }
