@@ -21,5 +21,8 @@
   "homepage": "https://github.com/bredele/node-room",
   "devDependencies": {
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "component-emitter": "^1.1.2"
   }
 }
